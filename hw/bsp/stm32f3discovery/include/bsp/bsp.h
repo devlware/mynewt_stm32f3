@@ -33,6 +33,17 @@ extern "C" {
 
 /* LED pins */
 #define LED_BLINK_PIN   (72)
+/* Calc to find pin number: 4*16 + 8 which is PE8 blue led.
+ * PE15, PE14, PE13, PE12, PE11, PE10, PE9, PE8. */
+#define LED_BLINK_PIN   (72)
+#define LED_BLINK_PIN_1   (79)
+#define LED_BLINK_PIN_2   (78)
+#define LED_BLINK_PIN_3   (77)
+#define LED_BLINK_PIN_4   (76)
+#define LED_BLINK_PIN_5   (75)
+#define LED_BLINK_PIN_6   (74)
+#define LED_BLINK_PIN_7   (73)
+#define LED_BLINK_PIN_8   (72)
 
 /* UART ports */
 #define UART_CNT        1
